@@ -7,7 +7,7 @@ The Problem & The Solution
 
 **The Solution:** This script ingests raw `.csv` exports, applies complex regex pattern-matching against URL paths and custom dimensions, and generates a normalized dataset with clean, high-level business categories (e.g., mapping a messy `/webapp/1234` URL to a clean `Landing Pages` category).
 
-🧠 Core Engineering Skills Demonstrated
+Core Engineering Skills Demonstrated
 * **Data Manipulation with Pandas:** Leverages the `pandas` library for efficient parsing and transformation of large tabular datasets (`low_memory=False` optimization).
 * **Advanced Pattern Matching (Regex):** Uses complex regular expressions to identify substrings, standardize localized URLs (e.g., `en_us.html`, `fr_fr.html`), and route data through intricate conditional logic trees.
 * **ETL Pipeline Architecture:** Demonstrates a clear Extraction (reading CSVs), Transformation (applying business logic via `df.apply`), and Loading (dynamic file naming and exporting) workflow.
